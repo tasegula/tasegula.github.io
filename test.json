@@ -1,0 +1,564 @@
+{
+  "Stores": [
+    {
+      "Kardex": 2980,
+      "BipOgBetal": {
+        "GateModel": 1,
+        "WelcomeText": "Velkommen til Kvickly Odder",
+        "PaymentText": "Du kan finde QR-koden ved kiosken - hilsen Kvickly Odder",
+        "NoCheck": {
+          "NoCheckNotificationType": 1,
+          "NoCheckExitType": 1
+        },
+        "Rescan": {
+          "RescanNotificationType": 1,
+          "RescanExitType": 1,
+          "RescanText": "Vi er på vej. Vent et øjeblik.",
+          "RecanTaskTakenText": "En medarbejder er nu på vej",
+          "RescanTimeOut": 1,
+          "RescanTimeOutText": "Vi har meget travlt - du kan derfor godt forlade butikken uden en rescan."
+        },
+        "Age": {
+          "NotificationType": 1,
+          "AgeExitType": 1,
+          "AgeText": "Du skal kontakte en medarbejder før du kan betale. Find os i kasseområdet. Mvh Kvickly Odder.",
+          "AgeTaskTakenText": "Vi er på vej. Mvh Kvickly Odder.",
+          "AgeTimeOut": 1,
+          "AgeTimeOutText": "Vi har travlt, du må gerne smutte nu. Mvh Kvickly Odder."
+        }
+      }
+    },
+    {
+      "Kardex": 1910,
+      "BipOgBetal": {
+        "GateModel": 1,
+        "WelcomeText": "Velkommen til Kvickly Albertslund",
+        "PaymentText": "Du kan finde QR-koden ved kiosken - hilsen Kvickly Albertslund",
+        "NoCheck": {
+          "NoCheckNotificationType": 1,
+          "NoCheckExitType": 1
+        },
+        "Rescan": {
+          "RescanNotificationType": 1,
+          "RescanExitType": 1,
+          "RescanText": "Vi er på vej. Vent et øjeblik.",
+          "RecanTaskTakenText": "En medarbejder er nu på vej",
+          "RescanTimeOut": 1,
+          "RescanTimeOutText": "Vi har meget travlt - du kan derfor godt forlade butikken uden en rescan."
+        },
+        "Age": {
+          "NotificationType": 1,
+          "AgeExitType": 1,
+          "AgeText": "Du skal kontakte en medarbejder før du kan betale. Find os i kasseområdet. Mvh Kvickly Albertslund.",
+          "AgeTaskTakenText": "Vi er på vej. Mvh Kvickly Albertslund.",
+          "AgeTimeOut": 1,
+          "AgeTimeOutText": "Vi har travlt, du må gerne smutte nu. Mvh Kvickly Albertslund."
+        }
+      }
+    },
+    {
+      "Kardex": 3910,
+      "BipOgBetal": {
+        "GateModel": 1,
+        "WelcomeText": null,
+        "PaymentText": null,
+        "NoCheck": {
+          "NoCheckNotificationType": 1,
+          "NoCheckExitType": 1
+        },
+        "Rescan": {
+          "RescanNotificationType": 1,
+          "RescanExitType": 1,
+          "RescanText": null,
+          "RecanTaskTakenText": null,
+          "RescanTimeOut": 1,
+          "RescanTimeOutText": null
+        },
+        "Age": {
+          "NotificationType": 1,
+          "AgeExitType": 1,
+          "AgeText": null,
+          "AgeTaskTakenText": null,
+          "AgeTimeOut": 1,
+          "AgeTimeOutText": null
+        }
+      }
+    },
+    {
+      "Kardex": 3950,
+      "BipOgBetal": {
+        "GateModel": 1,
+        "WelcomeText": null,
+        "PaymentText": null,
+        "NoCheck": {
+          "NoCheckNotificationType": 1,
+          "NoCheckExitType": 1
+        },
+        "Rescan": {
+          "RescanNotificationType": 1,
+          "RescanExitType": 1,
+          "RescanText": null,
+          "RecanTaskTakenText": null,
+          "RescanTimeOut": 1,
+          "RescanTimeOutText": null
+        },
+        "Age": {
+          "NotificationType": 1,
+          "AgeExitType": 1,
+          "AgeText": null,
+          "AgeTaskTakenText": null,
+          "AgeTimeOut": 1,
+          "AgeTimeOutText": null
+        }
+      }
+    },
+    {
+      "Kardex": 7510,
+      "BipOgBetal": {
+        "GateModel": 1,
+        "WelcomeText": null,
+        "PaymentText": null,
+        "NoCheck": {
+          "NoCheckNotificationType": 1,
+          "NoCheckExitType": 1
+        },
+        "Rescan": {
+          "RescanNotificationType": 1,
+          "RescanExitType": 1,
+          "RescanText": null,
+          "RecanTaskTakenText": null,
+          "RescanTimeOut": 1,
+          "RescanTimeOutText": null
+        },
+        "Age": {
+          "NotificationType": 1,
+          "AgeExitType": 1,
+          "AgeText": null,
+          "AgeTaskTakenText": null,
+          "AgeTimeOut": 1,
+          "AgeTimeOutText": null
+        }
+      }
+    },
+    {
+      "Kardex": 8715,
+      "BipOgBetal": {
+        "GateModel": 1,
+        "WelcomeText": null,
+        "PaymentText": null,
+        "NoCheck": {
+          "NoCheckNotificationType": 1,
+          "NoCheckExitType": 1
+        },
+        "Rescan": {
+          "RescanNotificationType": 1,
+          "RescanExitType": 1,
+          "RescanText": null,
+          "RecanTaskTakenText": null,
+          "RescanTimeOut": 1,
+          "RescanTimeOutText": null
+        },
+        "Age": {
+          "NotificationType": 1,
+          "AgeExitType": 1,
+          "AgeText": null,
+          "AgeTaskTakenText": null,
+          "AgeTimeOut": 1,
+          "AgeTimeOutText": null
+        }
+      }
+    },
+    {
+      "Kardex": 8106,
+      "BipOgBetal": {
+        "GateModel": 1,
+        "WelcomeText": null,
+        "PaymentText": null,
+        "NoCheck": {
+          "NoCheckNotificationType": 1,
+          "NoCheckExitType": 1
+        },
+        "Rescan": {
+          "RescanNotificationType": 1,
+          "RescanExitType": 1,
+          "RescanText": null,
+          "RecanTaskTakenText": null,
+          "RescanTimeOut": 1,
+          "RescanTimeOutText": null
+        },
+        "Age": {
+          "NotificationType": 1,
+          "AgeExitType": 1,
+          "AgeText": null,
+          "AgeTaskTakenText": null,
+          "AgeTimeOut": 1,
+          "AgeTimeOutText": null
+        }
+      }
+    },
+    {
+      "Kardex": 6413,
+      "BipOgBetal": {
+        "GateModel": 1,
+        "WelcomeText": null,
+        "PaymentText": null,
+        "NoCheck": {
+          "NoCheckNotificationType": 1,
+          "NoCheckExitType": 1
+        },
+        "Rescan": {
+          "RescanNotificationType": 1,
+          "RescanExitType": 1,
+          "RescanText": null,
+          "RecanTaskTakenText": null,
+          "RescanTimeOut": 1,
+          "RescanTimeOutText": null
+        },
+        "Age": {
+          "NotificationType": 1,
+          "AgeExitType": 1,
+          "AgeText": null,
+          "AgeTaskTakenText": null,
+          "AgeTimeOut": 1,
+          "AgeTimeOutText": null
+        }
+      }
+    },
+    {
+      "Kardex": 2370,
+      "BipOgBetal": {
+        "GateModel": 1,
+        "WelcomeText": null,
+        "PaymentText": null,
+        "NoCheck": {
+          "NoCheckNotificationType": 1,
+          "NoCheckExitType": 1
+        },
+        "Rescan": {
+          "RescanNotificationType": 1,
+          "RescanExitType": 1,
+          "RescanText": null,
+          "RecanTaskTakenText": null,
+          "RescanTimeOut": 1,
+          "RescanTimeOutText": null
+        },
+        "Age": {
+          "NotificationType": 1,
+          "AgeExitType": 1,
+          "AgeText": null,
+          "AgeTaskTakenText": null,
+          "AgeTimeOut": 1,
+          "AgeTimeOutText": null
+        }
+      }
+    },
+    {
+      "Kardex": 24363,
+      "BipOgBetal": {
+        "GateModel": 0,
+        "WelcomeText": null,
+        "PaymentText": null,
+        "NoCheck": {
+          "NoCheckNotificationType": 0,
+          "NoCheckExitType": 0
+        },
+        "Rescan": {
+          "RescanNotificationType": 0,
+          "RescanExitType": 0,
+          "RescanText": null,
+          "RecanTaskTakenText": null,
+          "RescanTimeOut": 0,
+          "RescanTimeOutText": null
+        },
+        "Age": {
+          "NotificationType": 0,
+          "AgeExitType": 0,
+          "AgeText": null,
+          "AgeTaskTakenText": null,
+          "AgeTimeOut": 0,
+          "AgeTimeOutText": null
+        }
+      }
+    },
+    {
+      "Kardex": 24365,
+      "BipOgBetal": {
+        "GateModel": 0,
+        "WelcomeText": null,
+        "PaymentText": null,
+        "NoCheck": {
+          "NoCheckNotificationType": 0,
+          "NoCheckExitType": 0
+        },
+        "Rescan": {
+          "RescanNotificationType": 0,
+          "RescanExitType": 0,
+          "RescanText": null,
+          "RecanTaskTakenText": null,
+          "RescanTimeOut": 0,
+          "RescanTimeOutText": null
+        },
+        "Age": {
+          "NotificationType": 0,
+          "AgeExitType": 0,
+          "AgeText": null,
+          "AgeTaskTakenText": null,
+          "AgeTimeOut": 0,
+          "AgeTimeOutText": null
+        }
+      }
+    },
+    {
+      "Kardex": 24073,
+      "BipOgBetal": {
+        "GateModel": 0,
+        "WelcomeText": null,
+        "PaymentText": null,
+        "NoCheck": {
+          "NoCheckNotificationType": 0,
+          "NoCheckExitType": 0
+        },
+        "Rescan": {
+          "RescanNotificationType": 0,
+          "RescanExitType": 0,
+          "RescanText": null,
+          "RecanTaskTakenText": null,
+          "RescanTimeOut": 0,
+          "RescanTimeOutText": null
+        },
+        "Age": {
+          "NotificationType": 0,
+          "AgeExitType": 0,
+          "AgeText": null,
+          "AgeTaskTakenText": null,
+          "AgeTimeOut": 0,
+          "AgeTimeOutText": null
+        }
+      }
+    },
+    {
+      "Kardex": 24819,
+      "BipOgBetal": {
+        "GateModel": 0,
+        "WelcomeText": null,
+        "PaymentText": null,
+        "NoCheck": {
+          "NoCheckNotificationType": 0,
+          "NoCheckExitType": 0
+        },
+        "Rescan": {
+          "RescanNotificationType": 0,
+          "RescanExitType": 0,
+          "RescanText": null,
+          "RecanTaskTakenText": null,
+          "RescanTimeOut": 0,
+          "RescanTimeOutText": null
+        },
+        "Age": {
+          "NotificationType": 0,
+          "AgeExitType": 0,
+          "AgeText": null,
+          "AgeTaskTakenText": null,
+          "AgeTimeOut": 0,
+          "AgeTimeOutText": null
+        }
+      }
+    },
+    {
+      "Kardex": 24046,
+      "BipOgBetal": {
+        "GateModel": 0,
+        "WelcomeText": null,
+        "PaymentText": null,
+        "NoCheck": {
+          "NoCheckNotificationType": 0,
+          "NoCheckExitType": 0
+        },
+        "Rescan": {
+          "RescanNotificationType": 0,
+          "RescanExitType": 0,
+          "RescanText": null,
+          "RecanTaskTakenText": null,
+          "RescanTimeOut": 0,
+          "RescanTimeOutText": null
+        },
+        "Age": {
+          "NotificationType": 0,
+          "AgeExitType": 0,
+          "AgeText": null,
+          "AgeTaskTakenText": null,
+          "AgeTimeOut": 0,
+          "AgeTimeOutText": null
+        }
+      }
+    },
+    {
+      "Kardex": 24156,
+      "BipOgBetal": {
+        "GateModel": 0,
+        "WelcomeText": null,
+        "PaymentText": null,
+        "NoCheck": {
+          "NoCheckNotificationType": 0,
+          "NoCheckExitType": 0
+        },
+        "Rescan": {
+          "RescanNotificationType": 0,
+          "RescanExitType": 0,
+          "RescanText": null,
+          "RecanTaskTakenText": null,
+          "RescanTimeOut": 0,
+          "RescanTimeOutText": null
+        },
+        "Age": {
+          "NotificationType": 0,
+          "AgeExitType": 0,
+          "AgeText": null,
+          "AgeTaskTakenText": null,
+          "AgeTimeOut": 0,
+          "AgeTimeOutText": null
+        }
+      }
+    },
+    {
+      "Kardex": 24044,
+      "BipOgBetal": {
+        "GateModel": 0,
+        "WelcomeText": null,
+        "PaymentText": null,
+        "NoCheck": {
+          "NoCheckNotificationType": 0,
+          "NoCheckExitType": 0
+        },
+        "Rescan": {
+          "RescanNotificationType": 0,
+          "RescanExitType": 0,
+          "RescanText": null,
+          "RecanTaskTakenText": null,
+          "RescanTimeOut": 0,
+          "RescanTimeOutText": null
+        },
+        "Age": {
+          "NotificationType": 0,
+          "AgeExitType": 0,
+          "AgeText": null,
+          "AgeTaskTakenText": null,
+          "AgeTimeOut": 0,
+          "AgeTimeOutText": null
+        }
+      }
+    },
+    {
+      "Kardex": 24109,
+      "BipOgBetal": {
+        "GateModel": 0,
+        "WelcomeText": null,
+        "PaymentText": null,
+        "NoCheck": {
+          "NoCheckNotificationType": 0,
+          "NoCheckExitType": 0
+        },
+        "Rescan": {
+          "RescanNotificationType": 0,
+          "RescanExitType": 0,
+          "RescanText": null,
+          "RecanTaskTakenText": null,
+          "RescanTimeOut": 0,
+          "RescanTimeOutText": null
+        },
+        "Age": {
+          "NotificationType": 0,
+          "AgeExitType": 0,
+          "AgeText": null,
+          "AgeTaskTakenText": null,
+          "AgeTimeOut": 0,
+          "AgeTimeOutText": null
+        }
+      }
+    },
+    {
+      "Kardex": 24537,
+      "BipOgBetal": {
+        "GateModel": 0,
+        "WelcomeText": null,
+        "PaymentText": null,
+        "NoCheck": {
+          "NoCheckNotificationType": 0,
+          "NoCheckExitType": 0
+        },
+        "Rescan": {
+          "RescanNotificationType": 0,
+          "RescanExitType": 0,
+          "RescanText": null,
+          "RecanTaskTakenText": null,
+          "RescanTimeOut": 0,
+          "RescanTimeOutText": null
+        },
+        "Age": {
+          "NotificationType": 0,
+          "AgeExitType": 0,
+          "AgeText": null,
+          "AgeTaskTakenText": null,
+          "AgeTimeOut": 0,
+          "AgeTimeOutText": null
+        }
+      }
+    },
+    {
+      "Kardex": 24354,
+      "BipOgBetal": {
+        "GateModel": 0,
+        "WelcomeText": null,
+        "PaymentText": null,
+        "NoCheck": {
+          "NoCheckNotificationType": 0,
+          "NoCheckExitType": 0
+        },
+        "Rescan": {
+          "RescanNotificationType": 0,
+          "RescanExitType": 0,
+          "RescanText": null,
+          "RecanTaskTakenText": null,
+          "RescanTimeOut": 0,
+          "RescanTimeOutText": null
+        },
+        "Age": {
+          "NotificationType": 0,
+          "AgeExitType": 0,
+          "AgeText": null,
+          "AgeTaskTakenText": null,
+          "AgeTimeOut": 0,
+          "AgeTimeOutText": null
+        }
+      }
+    },
+    {
+      "Kardex": 24539,
+      "BipOgBetal": {
+        "GateModel": 0,
+        "WelcomeText": null,
+        "PaymentText": null,
+        "NoCheck": {
+          "NoCheckNotificationType": 0,
+          "NoCheckExitType": 0
+        },
+        "Rescan": {
+          "RescanNotificationType": 0,
+          "RescanExitType": 0,
+          "RescanText": null,
+          "RecanTaskTakenText": null,
+          "RescanTimeOut": 0,
+          "RescanTimeOutText": null
+        },
+        "Age": {
+          "NotificationType": 0,
+          "AgeExitType": 0,
+          "AgeText": null,
+          "AgeTaskTakenText": null,
+          "AgeTimeOut": 0,
+          "AgeTimeOutText": null
+        }
+      }
+    }
+  ]
+}
