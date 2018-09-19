@@ -208,7 +208,7 @@ figure {
         display: inline;
         list-style: none; }
         #colorlib-aside .colorlib-footer ul li a {
-          color: rgba(255, 255, 255, 0.3);
+          color: #2c98f0;
           padding: 4px; }
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
@@ -646,8 +646,12 @@ body.offcanvas {
       color: #a84cb8; }
   .services.color-5 {
     border-bottom: 2px solid #2fa499; }
+  .services.color-5 .icon2 i {
+    color: #2fa499; }
   .services.color-6 {
     border-bottom: 2px solid #4054b2; }
+  .services.color-6 .icon2 i {
+    color: #4054b2; }
 
 .services {
   margin-bottom: 80px;
