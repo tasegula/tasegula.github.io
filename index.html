@@ -1,122 +1,745 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tase Gula - Home</title>
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Tase Gula - Android Developer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
 
-    <!-- Add to homescreen for Chrome on Android -->
-    <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" sizes="192x192" href="images/android-desktop.png">
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-    <!-- Add to homescreen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Tase Gula">
-    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
 
-    <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
-    <meta name="msapplication-TileColor" content="#3372DF">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Paging  -->
+	<link rel="stylesheet" href="css/paging.css">
 
-    <link rel="shortcut icon" href="images/favicon.png">
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="md/material.min.css">
-    <link rel="stylesheet" href="md/styles.css">
-    <link rel="stylesheet" href="md/mystyle.css">
-  </head>
-  <body>
-    <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
-      <header class="demo-header mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-600">
-        <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">Home</span>
-          <div class="mdl-layout-spacer"></div>
-          <div class="mdl-button mdl-js-button mdl-button--icon">
-              <a class="social-btn" href="https://github.com/tasegula/">
-                  <img class="social-icon" src="images/icons/github_black_48.png"/>GitHub
-              </a>
-          </div>
-          <div class="mdl-button mdl-js-button mdl-button--icon">
-              <a class="social-btn" href="http://stackoverflow.com/users/2383168/">
-                  <img class="social-icon" src="images/icons/stackoverflow_black_48.png"/>Stack Overflow
-              </a>
-          </div>
-          <div class="mdl-button mdl-js-button mdl-button--icon">
-              <a class="social-btn" href="https://www.linkedin.com/in/tanasegula">
-                  <img class="social-icon" src="images/icons/linkedin_black_48.png"/>LinkedIn
-              </a>
-          </div>
-          <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
-            <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
-              <i class="material-icons">search</i>
-            </label>
-            <div class="mdl-textfield__expandable-holder">
-              <input class="mdl-textfield__input" type="text" id="search">
-              <label class="mdl-textfield__label" for="search">Enter your query...</label>
-            </div>
-          </div>
-          <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="hdrbtn">
-            <i class="material-icons">more_vert</i>
-          </button>
-          <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="hdrbtn">
-            <li class="mdl-menu__item">Information</li>
-          </ul>
-        </div>
-      </header>
-      <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
-        <header class="demo-drawer-header">
-          <a href="index.html"><img src="images/me.jpg" class="demo-avatar"></a>
-          <div class="demo-avatar-dropdown">
-            <span>Tase Gula<br/>Software Engineer</span>
-            <div class="mdl-layout-spacer"></div>
-            <button id="accbtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-              <i class="material-icons" role="presentation">arrow_drop_down</i>
-            </button>
-            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect roboto" for="accbtn">
-              <li class="mdl-menu__item">
-                <a class="social-btn" href="mailto:tasegula@gmail.com?Subject=Hello">tasegula@gmail.com</a>
-              </li>
-            </ul>
-          </div>
-        </header>
-        <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-800">
-          <a class="mdl-navigation__link" href="index.html"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i>Home</a>
-          <a class="mdl-navigation__link" href="about.html"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">face</i>About Me</a>
-          <a class="mdl-navigation__link" href="projects.html"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">apps</i>Projects</a>
-          <a class="mdl-navigation__link" href="playzone.html"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">flag</i>Playzone</a>
-          <div class="mdl-layout-spacer"></div>
-          <a class="mdl-navigation__link" href="contact.html"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">chat</i>Contact</a>
-        </nav>
-      </div>
-      <main class="mdl-layout__content mdl-color--grey-100">
-        <div class="mdl-grid demo-content">
-          <div class="demo-charts mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
-            <h1>Work in Progress ...</h1>
-          </div>
-          <div class="demo-graphs mdl-shadow--2dp mdl-color--white mdl-cell mdl-cell--8-col">
-          </div>
-          <div class="demo-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
-            <div class="demo-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
-              <div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
-                <h2 class="mdl-card__title-text">Updates</h2>
-              </div>
-              <div class="mdl-card__supporting-text mdl-color-text--grey-600">
-                Non dolore elit adipisicing ea reprehenderit consectetur culpa.
-              </div>
-              <div class="mdl-card__actions mdl-card--border">
-                <a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Read More</a>
-              </div>
-            </div>
-            <div class="demo-separator mdl-cell--1-col"></div>
-          </div>
-        </div>
-      </main>
-    </div>
-    <script src="md/material.min.js"></script>
-  </body>
+	</head>
+	<body>
+	<div id="colorlib-page">
+		<div class="container-wrap">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<div class="text-center">
+				<div class="author-img" style="background-image: url(images/me.jpg);"></div>
+				<h1 id="colorlib-logo"><a href="index.html">Tanase Gula</a></h1>
+				<span class="position"><a href="#">Android Developer</a> in Romania</span>
+			</div>
+			<nav id="colorlib-main-menu" role="navigation" class="navbar">
+				<div id="navbar" class="collapse">
+					<ul>
+						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
+						<li><a href="#" data-nav-section="about">About</a></li>
+						<li><a href="#" data-nav-section="services">Services</a></li>
+						<li><a href="#" data-nav-section="skills">Skills</a></li>
+						<li><a href="#" data-nav-section="education">Education</a></li>
+						<li><a href="#" data-nav-section="experience">Experience</a></li>
+						<li><a href="#" data-nav-section="work">Work</a></li>
+						<!-- <li><a href="#" data-nav-section="blog">Blog</a></li> -->
+						<li><a href="#" data-nav-section="contact">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+			<div class="colorlib-footer">
+				<ul>
+					<li><a target="_blank" href="https://github.com/tasegula"><i class="icon-github"></i></a></li>
+					<li><a target="_blank" href="https://stackoverflow.com/users/2383168/tasegula"><i class="icon-stackoverflow"></i></a></li>
+					<li><a target="_blank" href="https://www.instagram.com/tase.gula/"><i class="icon-instagram"></i></a></li>
+					<li><a target="_blank" href="https://www.linkedin.com/in/tanasegula/"><i class="icon-linkedin2"></i></a></li>
+				</ul>
+			</div>
+
+			<div class="colorlib-footer">
+				<p><small>
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					&copy; Copyright &copy;
+					<script>document.write(new Date().getFullYear());</script> 
+					All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a target="_blank" href="https://colorlib.com" target="_blank">Colorlib</a>
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span> 
+				</small></p>
+			</div>
+
+		</aside>
+
+		<div id="colorlib-main">
+			<section id="colorlib-hero" class="js-fullheight" data-section="home">
+				<div class="flexslider js-fullheight">
+					<ul class="slides">
+				   	<li style="background-image: url(images/sec_home.jpg);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner js-fullheight">
+					   					<div class="desc">
+						   					<h1>Hi! <br>I'm Tase</h1>
+											<p><a target="_blank" class="btn btn-primary btn-learn" href="assets/TanaseGula_CV.pdf" download>Download CV <i class="icon-download4"></i></a></p>
+										</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				  	</ul>
+			  	</div>
+			</section>
+
+			<!-- region ABOUT -->
+			<section class="colorlib-about" data-section="about">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-12">
+									<div class="about-desc">
+										<span class="heading-meta">About</span>
+										<h2 class="colorlib-heading">Who Am I?</h2>
+										<p><strong>Hi I'm Tase Gula</strong> 
+										<p>I'm passionate about technology, software and design.
+										<br>Right now I'm working as an Android Developer, using Kotlin, RxJava, MVVM and databing.
+										<br>Also, I like experimenting with App Design and server side technologies.
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+									<div class="services color-5">
+										<span class="icon2"><i class="icon-android"></i></span>
+										<h3>Android Development</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
+									<div class="services color-2">
+										<span class="icon2"><i class="icon-phone3"></i></span>
+										<h3>App Design<br><br></h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
+									<div class="services color-3">
+										<span class="icon2"><i class="icon-photo"></i></span>
+										<h3>Photography<br><br></h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+									<div class="services color-1">
+										<span class="icon2"><i class="icon-globe"></i></span>
+										<h3>Travel<br><br></h3>
+									</div>
+								</div>
+							</div>
+							<!-- region BIG BOX -->
+							<!-- 
+							<div class="row">
+								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+									<div class="hire">
+										<h2>I am happy to know you <br>that 300+ projects done sucessfully!</h2>
+										<a href="#" class="btn-hire">Hire me</a>
+									</div>
+								</div>
+							</div> 
+							-->
+							<!-- endregion BIG BOX -->
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- endregion ABOUT -->
+			
+			<!-- region SERVICES -->
+			<section class="colorlib-services" data-section="services">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Services</span>
+							<h2 class="colorlib-heading">What do I do?</h2>
+						</div>
+					</div>
+					<div class="row row-pt-md">
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-5">
+								<span class="icon">
+									<i class="icon-android"></i>
+								</span>
+								<div class="desc">
+									<h3>App Development</h3>
+									<p>I'm at my best while developing Android, but I've played with cross-platform development as well</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-2">
+								<span class="icon">
+									<i class="icon-phone3"></i>
+								</span>
+								<div class="desc">
+									<h3>App Design</h3>
+									<p>Not my strongest point, and I'm still learning, but I can help when a designer is not around</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-3">
+								<span class="icon">
+									<i class="icon-data"></i>
+								</span>
+								<div class="desc">
+									<h3>Deploy & Maintenance</h3>
+									<p>The development process doesn't end once the app is in the store; the users may need new features</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-4">
+								<span class="icon">
+									<i class="icon-layers2"></i>
+								</span>
+								<div class="desc">
+									<h3>Testing</h3>
+									<p>A good app needs testing</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- endregion SERVICES -->
+
+			<!-- region SKILLS -->
+			<section class="colorlib-skills" data-section="skills">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Skills</span>
+							<h2 class="colorlib-heading animate-box">My knowledge stack</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<p>
+								My usual stack of technologies for Android is Kotlin and/or Java with RxJava (and its counterparts: RxAndroid and RxKotlin), and Android Jetpack.
+								<br>For the networking part, my go to framework is Retrofit, of course with RxJava (and usually Gson).
+								<br>The usual architectural pattern I use is MVVM, heavily integrated with RxJava, for a bottom-up approach.
+								<br>When needed, the local database is kept up to date with the help of Android Room.
+							</p>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>Android</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="80"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								    <span>80%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>MVVM</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								    <span>70%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>Kotlin</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="75"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
+								    <span>75%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>SQL</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="50"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:50%">
+								    <span>50%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Java</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								    <span>70%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>Android Room</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								    <span>70%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>RxJava</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								    <span>70%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>Git</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								    <span>80%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- endregion SKILLS -->
+
+			<!-- region EDUCATION -->
+			<section class="colorlib-education" data-section="education">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Education</span>
+							<h2 class="colorlib-heading animate-box">Education</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<div class="fancy-collapse-panel">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingOne">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+														Master Degree in Advanced Software Services
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+									         <div class="panel-body">
+												<div class="row">
+													<div class="col-md-6">
+														<p><b>2015-2018</b></p>
+														<p>
+															University Politehnica of Bucharest
+															<br>
+															Faculty of Automatic Control and Computer Science
+														</p>
+													</div>
+													<div class="col-md-6">
+														<p>Diploma Project: <b>Vecinity</b>
+															<p>Social Network Android App over Opportunistic Networks</p>
+														</p>
+													</div>
+												</div>
+											</div>
+									    </div>
+									</div>
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingTwo">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+													Bachelor Degree of Computer Science
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+									        <div class="panel-body"><div class="row">
+												<div class="col-md-6">
+													<p><b>2011-2015</b></p>
+													<p>
+														University Politehnica of Bucharest
+														<br>
+														Faculty of Automatic Control and Computer Science
+													</p>
+												</div>
+												<div class="col-md-6">
+													<p>Diploma Project: <b>Carbon</b>
+														<p>Spaced Repetition Learning Android App</p>
+													</p>
+												</div>
+									        </div>
+									    </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- endregion EDUCATION -->
+
+			<!-- region WORK EXPERIENCE -->
+			<section class="colorlib-experience" data-section="experience">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Experience</span>
+							<h2 class="colorlib-heading animate-box">Work Experience</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+				        <div class="timeline-centered">
+					        <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+									<div class="timeline-icon color-1">
+					                	<i class="icon-pen2"></i>
+					               	</div>
+
+					               	<div class="timeline-label">
+									<h2><a href="#">Android Developer</a> <span>2016-present</span></h2>
+									<p><b>Greener Pastures</b></p>
+									<br>
+									Participated in complete development cycles by owning the release of new features,
+									from proper analysis, planning, development, testing and enhancement of the code.
+									<ul>
+										<li> analyzing UI/UX and consulting with the client.</li>
+										<li> prototyping new features for in production apps.</li>
+										<li> ensuring localization will support introduction to new markets.</li>
+										<li> whenever possible, refactoring the code base to leverage the latest tools and frameworks in Android development.</li>
+									</ul>
+									<br>
+									Developed applications for multiple clients:
+									<ul>
+										<li> root application to simulate entire OS as a music player, with full settings controls.</li>
+										<li> supermarket chain application with receipt tracking, offers, campaigns and games, store finding, self checkout, support and more.</li>
+										<li> other applications.</li>
+									</ul>
+									<br>
+									Android projects (Java/Kotlin): 
+									<ul>
+										<li>RxJava (RxAndroid / RxKotlin)</li>
+										<li>MVVM and databinding</li>
+										<li>Android Room</li>
+									</ul>
+									Xamarin projects: 
+									<ul>
+										<li>Cross platform (iOS and Android) app from scratch in Xamarin.Forms</li>
+										<li>Firebase backend</li>
+									</ul>
+									
+					            	</div>
+					            </div>
+					        </article>
+
+							<article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
+					               	<div class="timeline-icon color-2">
+					                	<i class="icon-pen2"></i>
+									   </div>
+									   
+					            	<div class="timeline-label">
+					               	<h2><a href="#">QA Automation Engineer</a> <span class="text-right">2014-2016</span></h2>
+									<p><b>Endava</b></p>
+									<ul>
+										<li>Service Level Testing with Scala and Akka in a microservices architecture.</li>
+										<li>Developed a Test Framework in Scala and Akka for sending/expecting messages over HTTP or AMQP channels.</li>
+										<li>Automation Testing using Selenium WebDriver in Java and C#.</li>
+										<li>Test Framework Development in Java and C#.</li>
+									</ul>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+					      </div>
+					   </div>
+				   </div>
+				</div>
+			</section>
+			<!-- endregion WORK EXPERIENCE -->
+
+			<!-- region PROJECTS -->
+			<section class="colorlib-work" data-section="work">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">My Work</span>
+							<h2 class="colorlib-heading animate-box">Recent Work</h2>
+						</div>
+					</div>
+					<div class="tabbar">
+						<div class="tabbar-menu row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+							<div class="col-md-12">
+								<p class="work-menu">
+									<span id="work1"><a class="tabbar-menu-page active" href="#work1">Personal</a></span> 
+									<span id="work2"><a class="tabbar-menu-page" href="#work2">Work</a></span>
+								</p>
+							</div>
+						</div>
+							<div class="tabbar-content">
+							<div class="tabbar-page row" id="work2">
+								<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+									<div class="project" style="background-image: url(images/proj-gp-bo.jpg);">
+										<div class="desc">
+											<div class="con">
+												<h3><a target="_blank" href="https://greenerpastures.dk/losninger/beosound-moment-v-2">B&O BeoSound Moment v2</a></h3>
+												<span>Android software to control your music collection through B&O equipment</span>
+												<p class="icon">
+													<span><a><i class="icon-android"></i> JellyBean (4.1 / SDK 16)</a></span>
+													<br>
+													<span><a><i class="icon-code"></i> Java</a></span>
+													<span><a><i class="icon-link"></i> RxJava</a></span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+									<div class="project" style="background-image: url(images/proj-gp-tekniq.jpg);">
+										<div class="desc">
+											<div class="con">
+												<h3><a target="_blank" href="https://greenerpastures.dk/losninger/tekniq-app">Tekniq</a></h3>
+												<span>Cross-Platform (Xamarin Forms) App with Firebase backend</span>
+												<p class="icon">
+													<span><a><i class="icon-android"></i> KitKat (4.4 / SDK 19)</a></span>
+													<br>
+													<span><a><i class="icon-code"></i> Xamarin</a></span>
+													<span><a><i class="icon-data"></i> Firebase</a></span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
+									<div class="project" style="background-image: url(images/proj-gp-coop.jpg);">
+										<div class="desc">
+											<div class="con">
+												<h3><a target="_blank" href="https://greenerpastures.dk/losninger/coopmedlem">Coop Medlem</a></h3>
+												<span>Membership app for supermarket chain that won multiple awards.</span>
+												<p class="icon">
+													<span><a><i class="icon-android"></i> KitKat (4.4 / SDK 19)</a></span>
+													<br>
+													<span><a><i class="icon-code"></i> Java / Kotlin</a></span>
+													<span><a><i class="icon-link"></i> RxJava</a></span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tabbar-page row" id="work1">
+								<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+									<div class="project" style="background-image: url(images/proj-me-bikla.png);">
+										<div class="desc">
+											<div class="con">
+												<h3><a target="_blank" href="./proj/bikla.html">Bikla</a></h3>
+												<span>Bike Renting platform that entered the final rounds at Innovation Labs 2016</span>
+												<p class="icon">
+													<span><a><i class="icon-android"></i> KitKat (4.4 / SDK 19)</a></span>
+													<br>
+													<span><a><i class="icon-code"></i> Java</a></span>
+													<span><a><i class="icon-link"></i> RxJava</a></span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+									<div class="project" style="background-image: url(images/proj-me-carbon.png);">
+										<div class="desc">
+											<div class="con">
+												<h3><a target="_blank" href="./proj/carbon.html">Carbon</a></h3>
+												<span>Android App for Spaced Repetition Learning (Thesis Diploma Project)</span>
+												<p class="icon">
+													<span><a><i class="icon-android"></i> KitKat (4.4 / SDK 19)</a></span>
+													<br>
+													<span><a><i class="icon-code"></i> Java</a></span>
+													<span><a><i class="icon-link"></i> RxJava</a></span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- region PROJECTS > MORE -->
+					<!-- <div class="row">
+						<div class="col-md-12 animate-box">
+							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
+						</div>
+					</div> -->
+					<!-- endregion PROJECTS > MORE -->
+				</div>
+			</section>
+			<!-- endregion PROJECTS -->
+
+			<!-- region CONTACT -->
+			<section class="colorlib-contact" data-section="contact">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Contact</span>
+							<h2 class="colorlib-heading">Get in Touch</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-social-at-circular"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="mailto:tase92@gmail.com">tase92@gmail.com</a></p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-map"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>Bucharest, Romania</p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-phone"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="tel:+40727508666">+40 727 508 666</a></p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-globe-outline"></i>
+								</div>
+								<div class="colorlib-text">
+									<a target="_blank" href="https://m.me/tase.gula">Facebook Messenger: @tase.gula</a>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-globe-outline"></i>
+								</div>
+								<div class="colorlib-text">
+									<a target="_blank" href="https://wa.me/40727508666">WhatsApp: <br>40727508666</a>
+								</div>
+							</div>
+						</div>
+						<!-- region EMAIL FORM -->
+						<!-- <div class="col-md-7 col-md-push-1">
+							<div class="row">
+								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
+									<form action="">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Name">
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Email">
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Subject">
+										</div>
+										<div class="form-group">
+											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+										</div>
+										<div class="form-group">
+											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
+										</div>
+									</form>
+								</div>
+							</div>
+						</div> -->
+						<!-- endregion EMAIL FORM -->
+					</div>
+				</div>
+			</section>
+			<!-- endregion CONTACT -->
+
+		</div><!-- end:colorlib-main -->
+	</div><!-- end:container-wrap -->
+	</div><!-- end:colorlib-page -->
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Pagination -->
+	<script src="js/jquery.paging.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
 </html>
+
