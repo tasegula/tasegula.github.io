@@ -1,11 +1,14 @@
 <html>
 <body>
-  <a href="intent://revolut.com/app/wero?consent-id=some-consent-id#Intent;scheme=https;end">
+  <a href="intent://revolut.com/app/wero?consent-id=some-consent-id">
     intent
+  </a>
+  <a href="intent://www.revolut.com/app/wero?consent-id=some-consent-id">
+    intent www
   </a>
   <br>
   <a href="revolut://app/wero?consent-id=some-consent-id">
-    Deep
+    deeplink
   </a>
   <br>
   <a href="https://revolut.com/app/wero?consent-id=some-consent-id">
@@ -13,19 +16,19 @@
   </a>
   <br>
   <a href="intent://app/wero?consent-id=some-consent-id#Intent;scheme=revolut;package=com.revolut.revolut;S.browser_fallback_url=https%3A%2F%2Frevolut.com%2Fapp%2Fwero%3Fconsent-id%3Dsome-consent-id;end">
-    intent deep / scheme R / web
+    intent deeplink / scheme R / web
   </a>
   <br>
   <a href="intent://app/wero?consent-id=some-consent-id#Intent;scheme=https;package=com.revolut.revolut;S.browser_fallback_url=https%3A%2F%2Frevolut.com%2Fapp%2Fwero%3Fconsent-id%3Dsome-consent-id;end">
-    intent deep / scheme HTTPS / web
+    intent deeplink / scheme HTTPS / web
   </a>
   <br>
   <a href="intent://app/wero?consent-id=some-consent-id#Intent;scheme=revolut;package=com.revolut.revolut;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.revolut.revolut;end">
-    intent deep / scheme R / store
+    intent deeplink / scheme R / store
   </a>
   <br>
   <a href="intent://app/wero?consent-id=some-consent-id#Intent;scheme=https;package=com.revolut.revolut;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.revolut.revolut;end">
-    intent deep / scheme HTTPS / store
+    intent deeplink / scheme HTTPS / store
   </a>
   <br>
 </body>
